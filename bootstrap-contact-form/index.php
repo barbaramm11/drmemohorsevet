@@ -23,7 +23,7 @@ if (! empty($_POST["send"])) {
         $ds->insert($query, $paramType, $paramArray);
     }
 
-    $toEmail = "phppot@example.com";
+    $toEmail = "barbaramm11@gmail.com";
     $mailHeaders = 'From: webmaster@example.com' . "\r\n" . 'Reply-To: ' . $name . '<' . $email . ">\r\n" . 'X-Mailer: PHP/' . phpversion();
 
     $mailHeaders = "From: " . $name . "<" . $email . ">\r\n";
